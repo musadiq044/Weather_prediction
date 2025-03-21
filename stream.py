@@ -12,8 +12,7 @@ def predict_weather(temp, humidity, wind_speed, pressure):
         return "Stormy"
     elif pressure < 1000:
         return "Low Pressure: Possible Rain"
-    else:
-        return "Uncertain Conditions"
+
 
 # Streamlit app
 st.title("Weather Condition Predictor")
