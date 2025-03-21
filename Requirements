@@ -6,20 +6,19 @@ Streamlit package installed.
 A working internet connection (for Streamlit deployment).
 A text editor or IDE (VS Code, PyCharm, or Jupyter Notebook).
 Runs in localhost or Network url
+
 SOFTWARE AND HARDWARE SPECIFICATIONS 
- 
  
 HARDWARE REQUIREMENTS:  
  
 Processor : Intel P-IV based system 
 Processor Speed : 2.0. GHz 
 RAM : 1GB 
-Hard Disk : 40GB to 80GB        
+Hard Disk : 40GB to 80GB 
+
 SOFTWARE REQUIREMENTS:   
  
-Database : MySQL 
-Server : Apache  
 Frontend : HTML 
 Scripting language : Java Script 
-IDE : Sublime 
-Technology : PHP
+IDE : python 3.3 or visual studio
+Technology : Python
