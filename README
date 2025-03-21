@@ -1,0 +1,60 @@
+# Weather Condition Predictor
+
+This is a simple web application built with Streamlit to predict weather conditions based on user input parameters.
+
+## Features
+- User inputs temperature, humidity, wind speed, and pressure.
+- Predicts weather conditions such as "Hot and Dry," "Cold and Rainy," "Pleasant," "Stormy," or "Low Pressure: Possible Rain."
+- Displays the entered parameters along with the predicted condition.
+
+## Requirements
+Ensure you have Python installed on your system. Then install the required package:
+
+```sh
+pip install streamlit
+```
+
+## Running the Application
+Run the following command in your terminal or command prompt:
+
+```sh
+streamlit run stream.py
+```
+
+## Usage
+1. Enter values for Temperature (°C), Humidity (%), Wind Speed (km/h), and Pressure (hPa).
+2. Click on the "Predict Weather Condition" button.
+3. The predicted weather condition will be displayed along with the input values.
+
+## File Overview
+- `stream.py`: The main script that contains the Streamlit app.
+
+## Example Screenshot
+After running the application, the interface will look something like this:
+
+```
+---------------------------------------------------
+|          Weather Condition Predictor           |
+---------------------------------------------------
+| Temperature (°C)    | [Input Box]               |
+| Humidity (%)        | [Input Box]               |
+| Wind Speed (km/h)   | [Input Box]               |
+| Pressure (hPa)      | [Input Box]               |
+---------------------------------------------------
+|        [Predict Weather Condition] Button      |
+---------------------------------------------------
+| Weather Report                                  |
+| Temperature: XX°C                               |
+| Humidity: XX%                                   |
+| Wind Speed: XX km/h                             |
+| Pressure: XXXX hPa                              |
+| Predicted Condition: [Condition]               |
+---------------------------------------------------
+```
+
+## Author
+This project was created as a simple demonstration of using Streamlit for a basic weather prediction tool.
+
+## License
+This project is open-source and free to use under the MIT License.
+
