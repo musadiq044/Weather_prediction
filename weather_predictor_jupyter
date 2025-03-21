@@ -1,0 +1,33 @@
+# Weather Condition Predictor in Jupyter Notebook
+
+# Function to predict weather condition based on inputs
+def predict_weather(temp, humidity, wind_speed, pressure):
+    if temp > 35 and humidity < 30 and wind_speed < 10:  
+        return "Hot and Dry"
+    elif temp < 20 and humidity > 70 and wind_speed > 15:
+        return "Cold and Rainy"
+    elif 20 <= temp <= 30 and 40 <= humidity <= 60 and wind_speed < 15:
+        return "Pleasant"
+    elif wind_speed > 25:
+        return "Stormy"
+    elif pressure < 1000:
+        return "Low Pressure: Possible Rain"
+    else:
+        return "Uncertain Conditions"
+
+# Taking user inputs
+temp = float(input("Enter Temperature (°C): "))
+humidity = float(input("Enter Humidity (%): "))
+wind_speed = float(input("Enter Wind Speed (km/h): "))
+pressure = float(input("Enter Pressure (hPa): "))
+
+# Predict the weather condition
+condition = predict_weather(temp, humidity, wind_speed, pressure)
+
+# Display the weather report
+print("\n--- Weather Report ---")
+print(f"Temperature: {temp}°C")
+print(f"Humidity: {humidity}%")
+print(f"Wind Speed: {wind_speed} km/h")
+print(f"Pressure: {pressure} hPa")
+print(f"Predicted Condition: {condition}")
