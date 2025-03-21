@@ -1,0 +1,8 @@
+✅ Requirements to Run the Program
+To run this Streamlit app, you need:
+
+Python installed (3.7 or later recommended).
+Streamlit package installed.
+A working internet connection (for Streamlit deployment).
+A text editor or IDE (VS Code, PyCharm, or Jupyter Notebook).
+Runs in localhost or Network url
